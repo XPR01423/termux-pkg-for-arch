@@ -8,7 +8,7 @@ url="https://github.com/XPR01423/termux-pkg-for-arch"
 license=('MIT')
 depends=('git' 'base-devel' 'jq')
 source=("pkg")
-sha256sums=('SKIP')
+sha256sums=('pkg')
 
 package() {
     install -Dm755 pkg "$pkgdir/usr/local/bin/pkg"
